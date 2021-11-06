@@ -1,38 +1,224 @@
-.App {
-  text-align: center;
-}
+#navBar {
+  width: 100vw;
+  background-color: rgb(236, 88, 88);
+  color: white;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  height: 30px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.innerbar {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  height: 30px;
+  padding-left: 20px;
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+  font-size: 10px;
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: white;
+}
+::placeholder:hover {
+  color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.menusvg {
+  height: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+    border-radius: 2px;
+
+}
+
+.homesvg {
+  width: max-content;
+  height: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+    border-radius: 2px;
+
+}
+
+
+#inputbar {
+  width: max-content;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 40px;
+  border-radius: 2px;
+  background-color: rgb(247, 118, 118);
+  padding-left: 4px;
+  position: absolute;
+}
+input {
+  background-color: transparent;
+  border: 0px solid;
+  width: 120px;
+}
+
+#inputbar:hover {
+  background-color: cornsilk;
+  fill: rgb(116, 111, 111);
+  color: rgb(66, 64, 64);
+}
+
+input:focus {
+  outline: none;
+  width: 250px;
+}
+
+.svglight {
+  fill: beige;
+}
+
+.display {
+  display: flex;
+}
+.leftpanel {
+    background-color: #fafafa;
+  height: calc(100vh - 30px);
+  width: 25.8vw;
+  position: fixed;
+  
+}
+.rightpanel {
+  
+  height: calc(100vh - 30px);
+  width: calc(100vw - 25.7vw);
+  margin-left: 234px;
+}
+.addicon {
+  width: max-content;
+  height: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  margin-left: 75%;
+  border-radius: 2px;
+}
+
+.notifysvg {
+  width: max-content;
+  height: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  border-radius: 2px;
+}
+.usersvg{
+    width: max-content;
+  height: max-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  border-radius: 2px;
+}
+
+
+.svglight:hover{
+    background-color: rgb(240, 116, 116);
+
+}
+.menudisplay{
+  display: flex;
+  flex-direction: column;
+  font-size: 9px;
+  padding-top: 15px;
+
+}
+.inbox{
+  display: flex;
+  align-items: center;
+  height: 25px;
+    padding-left: 5px;
+      cursor: pointer;
+
+}
+
+.inbox:hover{
+      background-color: rgb(214, 209, 209);
+    margin-right: 2px;
+    border-radius: 2px;
+          cursor: pointer;
+
+}
+.today{
+  
+  display: flex;
+  align-items: center;
+  height: 25px;
+  padding-left: 5px;
+        cursor: pointer;
+
+}
+.today:hover{
+      background-color: rgb(214, 209, 209);
+    margin-right: 2px;
+    border-radius: 2px;
+}
+.svgcolor{
+  fill:darkcyan;
+}
+.upcoming{
+  padding-left: 7px;
+  display: flex;
+  align-items: center;
+  height: 25px;
+   fill:rgb(185, 123, 216);
+  
+}
+
+.upcoming:hover{
+      background-color: rgb(214, 209, 209);
+    margin-right: 2px;
+    border-radius: 2px;
+          cursor: pointer;
+
+}
+.space{
+  padding-left: 4px;
+}
+.panel{
+      padding: 1px 0 0 50px;
+    position: relative;
+    display: flex;
+    font-size: 10.5px;
+    font-weight: bold;
+    line-height: 1em;
+    cursor: pointer;
+}
+.welcome{
+   display: flex;
+  align-items: center;
+  height: 22px;
+  cursor: pointer;
+    display: list-item;
+
+}
+.tryboards{
+  align-items: center;
+  height: 22px;
+  cursor: pointer;
+  display: list-item;
+    
+
+}
+.listitems{
+  padding-left: 60px;
 }
