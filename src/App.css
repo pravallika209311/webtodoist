@@ -35,8 +35,7 @@
   align-items: center;
   justify-content: center;
   width: 20px;
-    border-radius: 2px;
-
+  border-radius: 2px;
 }
 
 .homesvg {
@@ -46,10 +45,8 @@
   align-items: center;
   justify-content: center;
   width: 20px;
-    border-radius: 2px;
-
+  border-radius: 2px;
 }
-
 
 #inputbar {
   width: max-content;
@@ -88,14 +85,12 @@ input:focus {
   display: flex;
 }
 .leftpanel {
-    background-color: #fafafa;
+  background-color: #fafafa;
   height: calc(100vh - 30px);
   width: 25.8vw;
   position: fixed;
-  
 }
 .rightpanel {
-  
   height: calc(100vh - 30px);
   width: calc(100vw - 25.7vw);
   margin-left: 234px;
@@ -120,8 +115,8 @@ input:focus {
   width: 20px;
   border-radius: 2px;
 }
-.usersvg{
-    width: max-content;
+.usersvg {
+  width: max-content;
   height: max-content;
   display: flex;
   align-items: center;
@@ -130,95 +125,93 @@ input:focus {
   border-radius: 2px;
 }
 
-
-.svglight:hover{
-    background-color: rgb(240, 116, 116);
-
+.svglight:hover {
+  background-color: rgb(240, 116, 116);
 }
-.menudisplay{
+.menudisplay {
   display: flex;
   flex-direction: column;
   font-size: 9px;
   padding-top: 15px;
-
 }
-.inbox{
-  display: flex;
-  align-items: center;
-  height: 25px;
-    padding-left: 5px;
-      cursor: pointer;
-
-}
-
-.inbox:hover{
-      background-color: rgb(214, 209, 209);
-    margin-right: 2px;
-    border-radius: 2px;
-          cursor: pointer;
-
-}
-.today{
-  
+.inbox {
   display: flex;
   align-items: center;
   height: 25px;
   padding-left: 5px;
-        cursor: pointer;
+  cursor: pointer;
+}
 
+.inbox:hover {
+  background-color: rgb(240, 235, 235);
+  margin-right: 2px;
+  border-radius: 2px;
+  cursor: pointer;
 }
-.today:hover{
-      background-color: rgb(214, 209, 209);
-    margin-right: 2px;
-    border-radius: 2px;
+.today {
+  display: flex;
+  align-items: center;
+  height: 25px;
+  padding-left: 5px;
+  cursor: pointer;
 }
-.svgcolor{
-  fill:darkcyan;
+.today:hover {
+  background-color: rgb(240, 235, 235);
+  margin-right: 2px;
+  border-radius: 2px;
 }
-.upcoming{
+.svgcolor {
+  fill: darkcyan;
+}
+.upcoming {
   padding-left: 7px;
   display: flex;
   align-items: center;
   height: 25px;
-   fill:rgb(185, 123, 216);
-  
+  fill: rgb(185, 123, 216);
 }
 
-.upcoming:hover{
-      background-color: rgb(214, 209, 209);
-    margin-right: 2px;
-    border-radius: 2px;
-          cursor: pointer;
-
+.upcoming:hover {
+  background-color: rgb(240, 235, 235);
+  margin-right: 2px;
+  border-radius: 2px;
+  cursor: pointer;
 }
-.space{
+.space {
   padding-left: 4px;
 }
-.panel{
-      padding: 1px 0 0 50px;
-    position: relative;
-    display: flex;
-    font-size: 10.5px;
-    font-weight: bold;
-    line-height: 1em;
-    cursor: pointer;
-}
-.welcome{
-   display: flex;
-  align-items: center;
-  height: 22px;
+.panel {
+  padding: 1px 0 0 50px;
+  position: relative;
+  display: flex;
+  font-size: 10.5px;
+  font-weight: bold;
+  line-height: 1em;
   cursor: pointer;
-    display: list-item;
-
 }
-.tryboards{
+.welcome {
+  display: flex;
   align-items: center;
   height: 22px;
   cursor: pointer;
   display: list-item;
-    
-
 }
-.listitems{
+.tryboards {
+  align-items: center;
+  height: 22px;
+  cursor: pointer;
+  display: list-item;
+}
+a {
+  color: black;
+
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+.listitems {
   padding-left: 60px;
 }

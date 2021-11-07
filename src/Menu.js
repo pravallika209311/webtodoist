@@ -10,16 +10,16 @@ const Menu = () => {
           <ul>
             <li className="inbox">
               <Inboxsvg width="16" height="20" marginRight="10"></Inboxsvg>
-              <span className="space"> Inbox</span>
+              <a href="inbox" className="space"> Inbox</a>
             </li>
             <li className="today svgcolor">
               <Todaysvg width="16" height="20"></Todaysvg>
-              <span className="space"> Today</span>
+              <a href="today" className="space"> Today</a>
             </li>
 
             <li className="upcoming">
               <Upcomingsvg width="13" height="15"></Upcomingsvg>
-              <span className="space">Upcoming</span>
+              <a href="upcoming" className="space">Upcoming</a>
             </li>
           </ul>
           <div className="panel">
